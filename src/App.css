@@ -1,0 +1,147 @@
+/* footer */
+
+footer {
+    text-align: center;
+    padding: 60px 12px;
+}
+
+footer .social-links {
+    padding: 12px;
+}
+
+footer .social-links img {
+    margin: 12px
+}
+
+/* Apply section */
+.apply-section img {
+    width: 80%;
+    margin: auto;
+    display: block;
+    position: relative;
+    z-index: 1;
+    top: 56px;
+}
+
+.apply-section .end-box {
+    display: block;
+    position: relative;
+    z-index: 2;
+    background: var(--box-bg);
+    color: var(--white-color);
+    padding: 32px 16px;
+    text-align: center
+}
+
+.apply-section .end-box h2 {
+    font-size: var(--font-32);
+    font-weight: var(--wt-700);
+}
+
+.apply-section .end-box button,
+.hero-section button {
+    background: var(--neon-green);
+    padding: 25px 16px;
+    font-size: var(--font-20);
+    font-weight: var(--wt-700);
+}
+
+.apply-section .end-box button:hover,
+.hero-section button:hover {
+    background: var(--box-bg);
+    border-color: var(--neon-green);
+    color: var(--neon-green);
+}
+
+/* Pointers section block */
+
+.mid-section {
+    position: relative;
+    text-align: center;
+    margin: 30px 0px;
+    padding: 90px 8px 30px;
+    background: var(--faint-pink-bg);
+    bottom: 30px;
+}
+
+.mid-section::after {
+    width: 100%;
+    height: 100px;
+    background: var(--faint-pink-bg);
+    display: block;
+    position: relative;
+    overflow: visible;
+    content: "";
+    top: 80px;
+    border-radius: 50%;
+}
+
+.mid-section .section p.number {
+    border: 1px solid var(--box-bg);
+    font-size: var(--font-20);
+    font-weight: var(--wt-700);
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.mid-section .section .content {
+    margin: 0 0 50px 0;
+}
+
+/* hero section */
+
+.hero-section {
+    display: block;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    color: var(--white-color);
+    background: var(--box-bg);
+}
+
+.hero-section::after {
+    width: 100%;
+    height: 100px;
+    background: var(--box-bg);
+    display: block;
+    position: relative;
+    overflow: visible;
+    content: "";
+    top: 40px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.hero-section h1 {
+    margin-top: 0;
+}
+
+.hero-section h1 em, header .sec2 a {
+    text-decoration: underline 2px var(--neon-green);
+    text-underline-offset: 8px;
+}
+
+.hero-section button {
+    margin-bottom: 12px;
+}
+
+.hero-section img {
+    width: 80%;
+    position: absolute;
+    top: 249px;
+    right: 13px;
+    z-index: 3;
+}
+
+/* header */
+
+header {
+    padding: 23px 8px;
+    display: flex;
+    justify-content: space-between;
+    background: var(--box-bg);
+    color: var(--white-color);
+}

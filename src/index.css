@@ -1,0 +1,17 @@
+:root {
+    font-family: 'Manrope', sans-serif;
+
+    --white-color : #FFF;
+    --box-bg: #24053e;
+    --neon-green: #44FFA1;
+    --faint-pink-bg: #FCF8FF;
+
+    --font-20: 20px;
+    --font-32: 32px;
+
+    --wt-700: 700;
+}
+
+body {
+    margin: 0;
+}
